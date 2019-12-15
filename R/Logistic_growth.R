@@ -5,7 +5,7 @@
 #'
 #' @import deSolve
 #' @importFrom data.table as.data.table
-#' 
+#' @export
 #' @examples
 #' # library(ggplot2)
 #' 
