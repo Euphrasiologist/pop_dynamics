@@ -1,6 +1,5 @@
 #' @title Logistic growth
-#' 
-#' Simple differential equation solution to a population undergoing logistic growth. 
+#' @description Simple differential equation solution to a population undergoing logistic growth. 
 #' It is essentially a wrapper for the deSolve package function ode().
 #'
 #' @import deSolve

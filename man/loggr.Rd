@@ -2,17 +2,12 @@
 % Please edit documentation in R/Logistic_growth.R
 \name{loggr}
 \alias{loggr}
-\title{Logistic growth
-
-Simple differential equation solution to a population undergoing logistic growth. 
-It is essentially a wrapper for the deSolve package function ode().}
+\title{Logistic growth}
 \usage{
 loggr(state = c(X = NULL), parameters = c(r = NULL, K = NULL), times,
   method = NULL)
 }
 \description{
-Logistic growth
-
 Simple differential equation solution to a population undergoing logistic growth. 
 It is essentially a wrapper for the deSolve package function ode().
 }
