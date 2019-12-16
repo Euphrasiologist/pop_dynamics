@@ -7,12 +7,21 @@
 loggr(state = c(X = NULL), parameters = c(r = NULL, K = NULL), times,
   method = NULL)
 }
+\arguments{
+\item{state}{initial state of the population, X}
+
+\item{parameters}{vector of named values, r (pop growth rate), and K (carrying capacity of pop)}
+
+\item{times}{vector of time period (or generations) for logistic equation to be solved over, best generated using the seq() function.}
+
+\item{method}{see ?deSolve::ode for methods and algorithms with which to solve differential equations}
+}
 \description{
 Simple differential equation solution to a population undergoing logistic growth. 
 It is essentially a wrapper for the deSolve package function ode().
 }
 \examples{
-# library(ggplot2)
+# library(ggplot2); library(dplyr)
 
 # set up the parameters r, population growth rate
 # and K, the carrying capacity of the population
